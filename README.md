@@ -56,6 +56,7 @@ You can add nonsense to make something more interesting and more fun. Think abou
 
 
 ## Sources
+[Emojipedia](https://emojipedia.org/)
 
 ## Credits
 
