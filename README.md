@@ -7,7 +7,31 @@
 
 
 ## Exclusive Design principles
+We actually design websites for people who use their computers in a similar way as we do. But this isn't enough if we want to design interfaces for people who are excluded. Creating inclusive websites enables people with disabilities to lead a more independent life. What if we design websites for real people with real disabilities? This is where the exclusive design principles are getting important. This is how I added the design principles:
 
+<details open>
+  <summary><b> 1. Study situation </b></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details open>
+  <summary><b> 2. Ignore conventions </b></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details open>
+  <summary><b> 3. Prioritise identity </b></summary>
+<br>
+Well, you asked for it!
+</details>
+
+<details open>
+  <summary><b> 4. Add nonsense </b></summary>
+<br>
+Well, you asked for it!
+</details>
 
 
 ## Sources
