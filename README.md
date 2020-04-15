@@ -51,7 +51,7 @@ You can add nonsense to make something more interesting and more fun. Think abou
 - Maybe I can add something else than audio. Think about your phone that vibrates when you get a message. 
 </details>
 
-## How works my app?
+## User scenario
 
 
 
