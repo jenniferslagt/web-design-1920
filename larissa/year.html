@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .filterDiv {
+        float: left;
+        background-color: #2196F3;
+        color: #ffffff;
+        width: 100px;
+        line-height: 100px;
+        text-align: center;
+        margin: 2px;
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .container {
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    /* Style the buttons */
+    .btn {
+        border: none;
+        outline: none;
+        padding: 12px 16px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: #ddd;
+    }
+
+    .btn.active {
+        background-color: #666;
+        color: white;
+    }
+</style>
+
+<body>
+
+    <h1>Jaarplanning op chronologische volgorde</h1>
+
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')">Laat alle maanden zijn</button>
+        <button class="btn" onclick="filterSelection('animals')"> Filter op fase</button>
+        <button class="btn" onclick="filterSelection('cars')"> Filter op locatie</button>
+        <!-- <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+        <button class="btn" onclick="filterSelection('colors')"> Colors</button> -->
+    </div>
+
+    <div class="container">
+        <div class="filterDiv cars">Tokyo RE7</div>
+        <div class="filterDiv cars">Tandem</div>
+        <div class="filterDiv cars animals">C1 Manch</div>
+        <div class="filterDiv cars">Moiraira</div>
+        <div class="filterDiv cars">NK Baan?</div>
+        <div class="filterDiv cars">pre WK</div>
+        <div class="filterDiv cars">WK Milton</div>
+        <div class="filterDiv cars">post WK</div>
+        <div class="filterDiv cars">Zelf Duur</div>
+        <div class="filterDiv cars">Alkmaar</div>
+        <div class="filterDiv cars">STO</div>
+        <div class="filterDiv cars">Anadia</div>
+        <div class="filterDiv cars">TOKYO</div>
+
+        <div class="filterDiv animals">Rust</div>
+        <div class="filterDiv animals">Conditie - Duur - Belastbaarheid</div>
+        <div class="filterDiv animals">Hypertrophiefase - vorm</div>
+        <div class="filterDiv animals">Hypertrophiefase</div>
+        <div class="filterDiv animals">Anaerobecapaciteit - krachtduur</div>
+        <div class="filterDiv animals">Anaerobevermogen - Snelheid</div>
+        <div class="filterDiv animals">Conditie</div>
+        <div class="filterDiv animals">Max strength</div>
+        <div class="filterDiv animals">Anaerobecapaciteit</div>
+        <div class="filterDiv animals">Naerobevermogen - Snelheid</div>
+        <div class="filterDiv animals">Relatief Herstel</div>
+        <div class="filterDiv animals">Anaerobevermogen - Snelheid</div>
+
+        <!-- <div class="filterDiv colors">Red</div> -->
+        <!-- <div class="filterDiv colors fruits">Orange</div> -->
+        <!-- <div class="filterDiv colors">Blue</div> -->
+        <!-- <div class="filterDiv fruits">Melon</div>
+        <div class="filterDiv fruits animals">Kiwi</div>
+        <div class="filterDiv fruits">Banana</div>
+        <div class="filterDiv fruits">Lemon</div> -->
+    </div>
+
+    <script src="./year.js"></script>
+</body>
+
+</html>
