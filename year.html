@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <style>
     .filterDiv {
@@ -42,15 +42,13 @@
 
 <body>
 
-    <h1>Jaarplanning op chronologische volgorde</h1>
+    <h1 tabindex="0">Jaarplanning op chronologische volgorde</h1>
 
-    <div id="myBtnContainer">
-        <button class="btn active" onclick="filterSelection('all')">Laat alle maanden zijn</button>
-        <button class="btn" onclick="filterSelection('animals')"> Filter op fase</button>
-        <button class="btn" onclick="filterSelection('cars')"> Filter op locatie</button>
-        <!-- <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-        <button class="btn" onclick="filterSelection('colors')"> Colors</button> -->
-    </div>
+    <button tabindex="0" class="btn active" onclick="filterSelection('all')">Laat alle maanden zien</button>
+    <button tabindex="0" class="btn" onclick="filterSelection('animals')"> Filter op fase</button>
+    <button tabindex="0" class="btn" onclick="filterSelection('cars')"> Filter op locatie</button>
+     <button class="btn" onclick="filterSelection('fruits')"> Fruits</button> 
+        <button class="btn" onclick="filterSelection('colors')"> Colors</button> 
 
     <div class="container">
         <div class="filterDiv cars">Tokyo RE7</div>
@@ -80,16 +78,97 @@
         <div class="filterDiv animals">Relatief Herstel</div>
         <div class="filterDiv animals">Anaerobevermogen - Snelheid</div>
 
-        <!-- <div class="filterDiv colors">Red</div> -->
-        <!-- <div class="filterDiv colors fruits">Orange</div> -->
-        <!-- <div class="filterDiv colors">Blue</div> -->
-        <!-- <div class="filterDiv fruits">Melon</div>
+         <div class="filterDiv colors">Red</div> 
+         <div class="filterDiv colors fruits">Orange</div> 
+         <div class="filterDiv colors">Blue</div> 
+         <div class="filterDiv fruits">Melon</div>
         <div class="filterDiv fruits animals">Kiwi</div>
         <div class="filterDiv fruits">Banana</div>
-        <div class="filterDiv fruits">Lemon</div> -->
+        <div class="filterDiv fruits">Lemon</div> 
     </div>
 
     <script src="./year.js"></script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planning per dag</title>
+    <link rel="stylesheet" href="day.css">
+</head>
+
+<body>
+    <input type="text" id="newInput" onkeyup="newFunction()" placeholder="Zoeken op maand">
+    <div id="search">
+        <section>
+            <h1 tabindex="0">Oktober 2019</h1>
+            <p tabindex="0">Van 4 tot tien oktober is de voorbereiding op het WK in Tokyo. Zestien en zeventien oktober
+                heb je de Tandem test wedstrijd.</p>
+        </section>
+        <section>
+            <h1 tabindex="0">November 2019</h1>
+            <p tabindex="0">Op zevenentwintig november heb je een reisdag voor de C1 in Manchester! Op achtentwintig
+                november is de voorbereiding voor deze wedstrijd. Op negenentwintig en dertig november zijn de
+                wedstrijden. Deze wedstrijd is ook nog in december.</p>
+        </section>
+        <section>
+            <h1 tabindex="0">December 2019</h1>
+            <p tabindex="0">Op één december heb je nog een wedstrijd in Manchester. Op twee december is de terugreis.
+            </p>
+        </section>
+        <section>
+            <h1 tabindex="0">Januari 2020</h1>
+            <p tabindex="0">Op zeven en acht januari heb je een wedstrijd in Gent. Op vierentwintig tot en met
+                negentwintig januari zijn er voorbereidingen op het WK. Op dertig en éénendertig januari zijn er
+                wedstrijden voor het WK. Deze lopen door tot in februari. </p>
+        </section>
+        <section>
+            <h1 tabindex="0">Februari 2020</h1>
+            <p tabindex="0">Op één en twee februari zijn er wedstrijden voor het WK. Op drie februari reis je terug. Op
+                zestien tot en met negenentwintig februari heb je een zelfduur training.</p>
+        </section>
+        <section>
+            <h1 tabindex="0">Maart 2020</h1>
+            <p tabindex="0">Op de volgende dagen zijn er trainingen van tien tot één uur: drie, zes, tien, dertien,
+                zeventien maart, vierentwintig, zeventwintig en éénendertig maart. Op negentien maart is er een training
+                van drie tot vijf uur. </p>
+        </section>
+        <section>
+            <h1 tabindex="0">April 2020</h1>
+            <p tabindex="0">Op twee april is er een training van drie tot vijf uur. Op de volgende dagen is er een
+                training van tien tot één uur: zeven, zeventien, éénentwintig, vierenentwintig en achtentwintig april.
+                Op viertien april heb je een training in Alkmaar van elf tot één uur!</p>
+        </section>
+        <section>
+            <h1 tabindex="0">Mei 2020</h1>
+            <p tabindex="0">Op één, vijf en acht mei heb je een training van tien tot één uur. Op vier mei is er een
+                training van twee tot vier uur. Op twaalf en dertien mei trainen we in Alkmaar! Dit is op de twaalfde
+                van elf tot één uur en op de dertiende van half één tot half drie.</p>
+        </section>
+        <section>
+            <h1 tabindex="0">Juni 2020</h1>
+            <p tabindex="0"></p>
+        </section>
+        <section>
+            <h1 tabindex="0">Juli 2020</h1>
+            <p tabindex="0"></p>
+        </section>
+        <section>
+            <h1 tabindex="0">Augustus 2020</h1>
+            <p tabindex="0"></p>
+        </section>
+        <section>
+            <h1 tabindex="0">September 2020</h1>
+            <p tabindex="0"></p>
+        </section>
+    </div>
+    <script src='script.js'></script>
 </body>
 
 </html>
