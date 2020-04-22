@@ -58,7 +58,45 @@ You can add nonsense to make something more interesting and more fun. Think abou
 
 ### User test 1 
 
+So today we tested our applications with Larissa. When tested my app, she could find her way easily through the content. I just needed to add some more content. Unfortunately, the mp3 player and the emoji's didn't work.
+
+I also made some notes which can be very useful: 
+* You can transfer information by using colors, texts and audio. 
+* There must be a big contrast in colors. Think about black and white.
+* The size of the text must be very big, otherwise it's not readable at all.
+* Larissa is listening with her screenreader, so think about adding alt text to images.
+* Larissa can navigate through the head levels of `<h1>` ! 
+* Don't use `display:none`: screenreader don't read this at all.
+* Larissa likes to navigate by using the arrows on the keyboard. She can also use her tab. Think about where you want to start and to stop navigating. She want to navigate within the space of the page.
+* Emoji's didn't work with her screenreader. Use a image instead.
+* Don't use too much white lines: a screenreader reads this.
+* My mp3 player didn't work.
+* You can test your app with a open source screenreader called NVDA.
+* She likes a black background.
+* Think about the start point: where do you want your first focus?
+* Her trainer talks with week numbers, she doesn't likes it, but it can be useful.
+
+
 ### User test 2
+This is the second (and unfortunately the last) user test. I added an animation to the home page (a waving emoji), because I was curious if Larissa could spot the moving hand. And she did!:) 
+
+When the test started, I gave Larissa three exercises: 
+1. Can you check the planning of today?
+2. What is the plan for the month May? 
+3. When are you going to travel to Tokyo?
+
+The first two exercises went very well. The last one was more difficult. Larissa couldn't find the right content, because she didn't know that she could search on any word in the search bar (based on the heading level). But it's a good thing that this went wrong. I am going to add another heading level before she can use the search bar. This is the point where I explain how the search bar works. When I told her that my search bar actually works likes command + F, it all made sense! She likes this way of searching, because it doesn't take a lot of time. I asked here if I needed to seperate the search balk in different topics (months, locations and stages?), but she said it will be fine if I kept it this way. I only needed to add the types of training during a year.
+
+During the tests, I made some notes about the feedback of my fellow students:
+- She navigates mainly by using the tab key.
+- You can navigate back by using the ALT + backspace.
+- "STO" stand for "Sprint training olympisch".
+- Color can bring the app more alive (but contrast is very important).
+- It's nice to use colors to show which part of the page is selected. For example, give the border of an element a color.
+- Larissa wants gold, you can encourage her with this!
+- It's nice when there is a planning of the week, based on the numbers of the week.
+- She likes it when webdevelopers make the app independent of technologies.
+
 
 ## Sources
 [Emojipedia](https://emojipedia.org/)
