@@ -1,8 +1,24 @@
+/* width */
+::-webkit-scrollbar {
+    width: 150px;
+    height: 360px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: url(./bicycle.png) no-repeat;
+    background-size: cover;
+    background-size: 120px 150px;
+    display: block;
+    width: 30px;
+    height: 100px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     margin: 0;
     padding: 0;
+    text-align: center;
     overflow-x: hidden;
 }
 
@@ -14,7 +30,8 @@ h1 {
 
 /* Waving emoji */
 div {
-    text-align: center;
+
+    margin-right: 2000px;
 }
 
 #emoji {
@@ -77,8 +94,8 @@ li {
     list-style-type: none;
     width: 100vw;
     height: 100vh;
-    padding-top: 50%;
-    margin-left: -50px;
+    /* padding-top: 50%; */
+    margin-right: 400px;
 }
 
 a {
@@ -86,5 +103,4 @@ a {
     text-decoration: none;
     background: black;
     padding: 70px;
-    box-shadow: 4px 4px 30px black;
 }
