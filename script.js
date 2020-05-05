@@ -20,29 +20,15 @@ function newFunction() {
 
 // Show the date of today
 const d = new Date();
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const months = ["Januari", "Februari", "Maart", "April", "Mei", "Juni", "Juli", "Augustus", "September", "Oktober", "November", "December"];
 const time = new Date()
 const curHr = time.getHours()
 const greetHere = document.querySelector('h1')
 
 if (curHr < 12) {
-    document.getElementById("date").innerHTML = "Goedemorgen, het is" + " " + d.getDate() + " " + months[d.getMonth()];
+    document.getElementById("date").innerHTML = "Goedemorgen Larissa! Het is" + " " + d.getDate() + " " + months[d.getMonth()];
 } else if (curHr < 18) {
-    document.getElementById("date").innerHTML = "Goeie middag, het is" + " " + d.getDate() + " " + months[d.getMonth()];
+    document.getElementById("date").innerHTML = "Goeie middag Larissa! Het is" + " " + d.getDate() + " " + months[d.getMonth()];
 } else {
-    document.getElementById("date").innerHTML = "Goede avond, het is" + " " + d.getDate() + " " + months[d.getMonth()];
+    document.getElementById("date").innerHTML = "Goede avond Larissa! Het is" + " " + d.getDate() + " " + months[d.getMonth()];
 }
-
-
-window.addEventListener("beforeunload", function (e) {
-    // var confirmationMessage = "\o/";
-
-    // (e || window.event).returnValue = confirmationMessage; //Gecko + IE
-    // console.log(confirmationMessage)
-
-
-    var audio = new Audio('bye.mp3');
-    audio.play()
-
-    return "halo";
-});

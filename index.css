@@ -1,10 +1,9 @@
-/* width */
+/* Styling the scrollbar and button */
 ::-webkit-scrollbar {
     width: 150px;
     height: 360px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: url(./bicycle.png) no-repeat;
     background-size: cover;
@@ -14,6 +13,25 @@
     height: 100px;
 }
 
+::-webkit-scrollbar-button:vertical:increment {
+    background: url(./START.png) no-repeat;
+    background-size: cover;
+    background-size: 120px 60px;
+    display: block;
+    width: 20px;
+    height: 60px;
+}
+
+::-webkit-scrollbar-button:end:increment {
+    background: url(./medaille.png) no-repeat;
+    background-size: cover;
+    background-size: 85px 120px;
+    display: block;
+    width: 10px;
+    height: 130px;
+}
+
+/* Styling the content */
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -22,16 +40,15 @@ body {
     overflow-x: hidden;
 }
 
-h1 {
+div h1 {
     font-size: 7vw;
-    width: 100vw;
+    width: 80vw;
     height: auto;
 }
 
 /* Waving emoji */
 div {
-
-    margin-right: 2000px;
+    margin-bottom: 25%;
 }
 
 #emoji {
@@ -55,31 +72,31 @@ span.wave {
 
 @keyframes wave-animation {
     0% {
-        transform: rotate(0.0deg)
+        transform: rotate(0deg);
     }
 
     10% {
-        transform: rotate(-30.0deg)
+        transform: rotate(-30deg);
     }
 
     20% {
-        transform: rotate(30.0deg)
+        transform: rotate(30deg);
     }
 
     30% {
-        transform: rotate(-30.0deg)
+        transform: rotate(-30deg);
     }
 
     40% {
-        transform: rotate(30.0deg)
+        transform: rotate(30deg);
     }
 
     50% {
-        transform: rotate(0.0deg)
+        transform: rotate(0deg);
     }
 
     100% {
-        transform: rotate(0.0deg)
+        transform: rotate(0deg);
     }
 }
 
@@ -94,8 +111,11 @@ li {
     list-style-type: none;
     width: 100vw;
     height: 100vh;
-    /* padding-top: 50%; */
-    margin-right: 400px;
+    margin-left: -100px;
+}
+
+li#last-list-item {
+    height: 20vh;
 }
 
 a {
