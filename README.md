@@ -1,14 +1,16 @@
 ## App
 
 ## Description
-I made a app <i>for</i> and <i>with</i> Larissa, she is blind and para cycles at a high level. In this app she can check her sport schedule with her screenreader en her keyboard. You can navigate through the content by using your tab key.
+I made a app <i>for</i> and <i>with</i> Larissa, she is blind and para cycles at a high level. In this app she can check her sport schedule with her screenreader and her keyboard. 
 
 ## Who is Larissa?
-Larissa is a 26-year-old cyclist and lives in Texel (a Dutch island). She trains 6 times a week and wants to use her sport schedule to check her training. Larissa is blind, so she uses her screenreader and a keyboard when she visits a webpage. Unfortenately, the schedule is made in Excell. This makes it very hard to navigate through the content. So it's my goal to make a web application for her schedule. 
+Larissa is a 26-year-old cyclist and lives in Texel (a Dutch island). She trains 6 times a week and wants to use her sport schedule to check her training. Larissa is blind, so she uses her screenreader and a keyboard when she visits a webpage. 
+Larissa has also a dog who guides her, but she prefers to go with someone she knows. At the exclusive design principle 'study situation' I've written more about Larrisa.
 
-Larissa has also a dog who guides her, but she prefers to go with someone she knows.
+## Larissa's schedule (the problem)
+It's not really a problem that Larissa can't see everything: it's a problem that the schedule isn't made to navigate through. This schedule is made in Excell, which is exported as a . This makes it very hard to navigate through the content. Most the time, Larissa's sport "mate" reads the schedule for Larrisa. But actually she wants to do it herself. So it's my goal to make a web application for her schedule. 
 
-## Larissa's schedule
+## The solution
 
 
 ## Exclusive Design principles
