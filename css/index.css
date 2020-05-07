@@ -1,0 +1,129 @@
+@media only screen and (min-width: 800px) {
+
+    /* Styling the scrollbar and button */
+    ::-webkit-scrollbar {
+        width: 150px;
+        height: 360px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: url(../images/bicycle.png) no-repeat;
+        background-size: cover;
+        background-size: 120px 150px;
+        display: block;
+        width: 30px;
+        height: 100px;
+    }
+
+    ::-webkit-scrollbar-button:vertical:increment {
+        background: url(../images/START.png) no-repeat;
+        background-size: cover;
+        background-size: 120px 60px;
+        display: block;
+        width: 20px;
+        height: 60px;
+    }
+
+    ::-webkit-scrollbar-button:end:increment {
+        background: url(../images/medaille.png) no-repeat;
+        background-size: cover;
+        background-size: 85px 120px;
+        display: block;
+        width: 10px;
+        height: 130px;
+    }
+}
+
+/* Styling the content */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+div h1 {
+    font-size: 7vw;
+    width: 80vw;
+    height: auto;
+}
+
+/* Waving emoji */
+div {
+    margin-bottom: 25%;
+}
+
+#emoji {
+    width: 22vw;
+    height: auto;
+    position: relative;
+    right: 12vw;
+}
+
+span.wave {
+    width: 10vw !important;
+    height: auto;
+    position: relative;
+    left: 20%;
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(-30deg);
+    }
+
+    20% {
+        transform: rotate(30deg);
+    }
+
+    30% {
+        transform: rotate(-30deg);
+    }
+
+    40% {
+        transform: rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* navigate on home page */
+ul {
+    font-size: 9vw;
+    font-weight: bold;
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+    width: 100vw;
+    height: 100vh;
+    margin-left: -100px;
+}
+
+li#last-list-item {
+    height: 20vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background: black;
+    padding: 70px;
+}
