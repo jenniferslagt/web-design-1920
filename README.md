@@ -107,7 +107,8 @@ During the tests, I made some notes about the feedback of my fellow students:
 - She likes it when webdevelopers make the app independent of technologies.
 
 ## Sources
-
+* [Simon Dogger ](http://www.simondogger.nl/ )
+* [Controlling focus with tabindex -- A11ycasts #04](https://www.youtube.com/watch?v=Pe0Ce1WtnUM)
 
 ## Credits
 In the past weeks we all worked from home, because of the virus. This makes it harder to communicate and to concentrate on your work. That's why I would like to thank my fellow students, the help students and the teachers for helping me during this time.
