@@ -107,6 +107,8 @@ During the tests, I made some notes about the feedback of my fellow students:
 - She likes it when webdevelopers make the app independent of technologies.
 
 ## Sources
+* [Exclusive Design](https://exclusive-design.vasilis.nl/)
+* [Design for Both Needs and Wants: Applying Anderson’s User Experience Hierarchy of Needs](https://thevisualcommunicationguy.com/2018/11/08/design-for-both-needs-and-wants-applying-andersons-user-experience-hierarchy-of-needs/)
 * [Simon Dogger ](http://www.simondogger.nl/ )
 * [Controlling focus with tabindex -- A11ycasts #04](https://www.youtube.com/watch?v=Pe0Ce1WtnUM)
 
