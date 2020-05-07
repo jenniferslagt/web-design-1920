@@ -110,7 +110,7 @@ This is the second (and unfortunately the last) user test. I added an animation 
 
 When the test started, I gave Larissa three exercises: 
 1. Can you check the planning of today?
-2. What is the plan for the month May? 
+2. What is the plan for the month April? 
 3. When are you going to travel to Tokyo?
 
 The first two exercises went very well. The last one was more difficult. Larissa couldn't find the right content, because she didn't know that she could search on any word in the search bar (based on the heading level). But it's a good thing that this went wrong. I am going to add another heading level before she can use the search bar. This is the point where I explain how the search bar works. When I told her that my search bar actually works likes command + F, it all made sense! She likes this way of searching, because it doesn't take a lot of time. I asked here if I needed to seperate the search balk in different topics (months, locations and stages?), but she said it will be fine if I kept it this way. I only needed to add the types of training during a year.
