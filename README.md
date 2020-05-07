@@ -2,7 +2,7 @@
 ![schedule_app_larissa](https://user-images.githubusercontent.com/45489420/81277234-6981fa80-9054-11ea-9358-ac00a12533b2.png)
 
 ## Description
-I made a app <i>for</i> and <i>with</i> Larissa, she is blind and para cycles at a high level. In this app she can check her sport schedule with her screenreader and her keyboard. 
+I made an app <i>for</i> and <i>with</i> Larissa, she is blind and para cycles at a high level. In this app she can check her sport schedule with her screenreader and her keyboard. 
 
 ## Who is Larissa?
 Larissa is a 26-year-old cyclist and lives in Texel (a Dutch island). She trains 6 times a week and wants to use her sport schedule to check her training. Larissa is blind, so she uses her screenreader and a keyboard when she visits a webpage. 
@@ -31,13 +31,27 @@ I have to understand the context of Larissa's situation. Larissa is blind, so it
 
 So it's important for me to understand how a screenreader works! A screenreader reads something that is "focused". Larissa can navigate by using her keyboard (usually the tab). She uses a screenreader called JAWS. There is a lot of information on the internet about this.
 
-Larissa uses her phone or her computer to check her sport schedule.
+Larissa uses her phone or her computer to check her sport schedule. But how did I add this principe: 
+* Larissa can navigate through the whole app by using her keyboard. 
+* I added a `TABINDEX` on the HTML elements to make it possible to navigate through the content.
+* I made the page responsive, so it works on her phone and on the computer.
+* I used two color with the biggest contrast: black and white.
+* I made the letters big and bold, so it's easier to read it (if she wants to).
+
 </details>
 
 <details>
   <summary><b> 2. Ignore conventions </b></summary>
 <br>
 We should actually use conventions that people know, but this doesn't work for Larissa. I should design from a different point of view. If you use a screenreader, you actually don't want to much content on the page. The screenreader will make too much noise and it will take too much time. So I have to make the page as minimalistic as possible. The screenreader should only read what's the important. But what is important? 
+  
+  
+I added this principe in this way:
+* I made the content of home page small and powerful. It greets Larissa and gives her three options. That's all!
+* If she wants to search through her sport schedule, she literally search by typing the day, stage, location or month (like command + F). This takes less time.
+* I didn't add "empty / free" days. 
+* The defaults can suck! So I changed the style of the scroll bar (on the home page), so she can "see" the scrollbar and understands the length of the page.
+
 </details>
 
 <details>
@@ -49,16 +63,20 @@ In this way, it's important to think about what content must be on the page. Wha
 You can also use someone's personality to enhace the user experience. Larissa is very sportive! She does cycling and horse riding at a very high level. She represented the Netherlands at the 2016 Summer Paralympics and became with her sighted pilot world champion! But Larissa actually likes the game more than the cycling part. But she does like horse riding.
 
 She also studies at the University of Applied Science. At this moment, she studies Informatica, but she wants to study Communication and Multimedia Design. 
+
+I added this principe in this way:
+* In the beginning, I wanted to do something with audio. I thought: "What if Larissa could do a request by asking something to my app?". But I didn't think about how awkward this could be when she's sitting in a train or something else. Larissa prefers to use her keyboard. So I decided to use this as an input.
+* Larissa is has "the drive" to win the competition. I wanted to do something with that drive. So I added a "START" and a "medaille" to encourage that motivation. It's about cycling, so the scrollbar is the bicycle.
+
 </details>
 
 <details>
   <summary><b> 4. Add nonsense </b></summary>
 <br>
-You can add nonsense to make something more interesting and more fun. Think about the monotone voice of a screenreader. It's actually very silly, isn't it? I thought about some things that can make it more fun: <br>
-- Maybe I can apply a foreign accent the screenreader. For example, she likes the english accent if she reads a Harry Potter book.
-- I can make it more personal by making a screenreader more "human". Think about saying: "Goodmorning".
-- I can add some emotions to make it more fun? How does the sceenreader read this out loud?
-- Maybe I can add something else than audio. Think about your phone that vibrates when you get a message. 
+You can add nonsense to make something more interesting and more fun. Think about the monotone voice of a screenreader. It's actually very silly, isn't it? I added some things that can make it more fun: <br>
+* On the home page there's big smiley waving at Larissa to greet her.
+* If Larissa "tabs" through the smiley, it saids: "Happy smiley which is greeting you with a wave." (Gelukkige smiley die je zwaaiend begroet).
+* I changed the style of the scrollbar and added a bicycle, which cycles over the edge of the screen! 
 </details>
 
 ## User scenario
