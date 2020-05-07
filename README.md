@@ -72,9 +72,9 @@ I added this principe in this way:
 <details>
   <summary><b> 4. Add nonsense </b></summary>
 <br>
-You can add nonsense to make something more interesting and more fun. Think about the monotone voice of a screenreader. It's actually very silly, isn't it? I added some things that can make it more fun: 
-* On the home page there's big smiley waving at Larissa to greet her.
-* If Larissa "tabs" through the smiley, it saids: "Happy smiley which is greeting you with a wave." (Gelukkige smiley die je zwaaiend begroet).
+You can add nonsense to make something more interesting and more fun. Think about the monotone voice of a screenreader. It's actually very silly, isn't it? I added some things that can make it more fun: <br>
+* On the home page there's big smiley waving at Larissa to greet her. <br>
+* If Larissa "tabs" through the smiley, it saids: "Happy smiley which is greeting you with a wave." (Gelukkige smiley die je zwaaiend begroet). <br>
 * I changed the style of the scrollbar and added a bicycle, which cycles over the edge of the screen! 
   
 </details>
