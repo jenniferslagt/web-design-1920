@@ -80,6 +80,15 @@ You can add nonsense to make something more interesting and more fun. Think abou
 </details>
 
 ## User scenario
+Who? What? How? Why?
+
+Larissa is a (professional) cyclist and trains 6 times a week. She is is (largely) blind, but has the drive to win the competition. She doesn't really likes the cycling, but she does like the game part. She actually likes horseriding much more! Larissa also has a dog who guides her, but she prefers to go with a friend of her. She is very competitive and motivated. 
+
+But she want to check her sport schedule, which she unfortenately can't. Her schedule is made in an excell file and she can't use it with her screenreader. Most of time, her sport mate helps her. So I made an app where she can check this schedule whenever she want.
+
+She can navigate through the content by using her keyboard. She can use tab to navigate and the enter key to enter the links on the home page. I also offered a search bar in which she can type. If something is "focused" the screenreader reads it out loud in a very high tempo (I can't follow this, but Larissa is a fast thinker and remembers a lot).
+
+In this way, she can find a day, location, stage or month in her sport schedule by only using her keyboard as an input!
 
 
 ## The process
