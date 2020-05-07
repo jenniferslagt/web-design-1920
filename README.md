@@ -45,7 +45,6 @@ Larissa uses her phone or her computer to check her sport schedule. But how did 
 <br>
 We should actually use conventions that people know, but this doesn't work for Larissa. I should design from a different point of view. If you use a screenreader, you actually don't want to much content on the page. The screenreader will make too much noise and it will take too much time. So I have to make the page as minimalistic as possible. The screenreader should only read what's the important. But what is important? 
   
-  
 I added this principe in this way:
 * I made the content of home page small and powerful. It greets Larissa and gives her three options. That's all!
 * If she wants to search through her sport schedule, she literally search by typing the day, stage, location or month (like command + F). This takes less time.
