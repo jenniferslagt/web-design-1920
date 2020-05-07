@@ -84,7 +84,13 @@ You can add nonsense to make something more interesting and more fun. Think abou
 
 ## The process
 
-### User test 1 
+### User test 1
+The first user test wasn't actually really a user test, it was more like an introduction of Larissa. Who is Larissa? What is her situation? What does she wants? What does she likes?
+As team (with my fellow students), we asked some questions and collected the answers in a file. I processed all this information by splitting it up based on the design principles. 
+
+Before this test, I also brainstormed to test some ideas. I decided that I wanted to do something with audio, but Larissa saids that if you use this as an input, it could be really awkward. This is the point where I decided that I am going to use Larissa's keyboard as an input. But maybe I can use audio as an output. 
+
+### User test 2
 
 So today we tested our applications with Larissa. When tested my app, she could find her way easily through the content. I just needed to add some more content. Unfortunately, the mp3 player and the emoji's didn't work.
 
@@ -105,7 +111,7 @@ I also made some notes which can be very useful:
 * Her trainer talks with week numbers, she doesn't likes it, but it can be useful.
 
 
-### User test 2
+### User test 3
 This is the second (and unfortunately the last) user test. I added an animation to the home page (a waving emoji), because I was curious if Larissa could spot the moving hand. And she did!:) 
 
 When the test started, I gave Larissa three exercises: 
