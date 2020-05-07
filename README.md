@@ -8,9 +8,16 @@ Larissa is a 26-year-old cyclist and lives in Texel (a Dutch island). She trains
 Larissa has also a dog who guides her, but she prefers to go with someone she knows. At the exclusive design principle 'study situation' I've written more about Larrisa.
 
 ## Larissa's schedule (the problem)
-It's not really a problem that Larissa can't see everything: it's a problem that the schedule isn't made to navigate through. This schedule is made in Excell, which is exported as a . This makes it very hard to navigate through the content. Most the time, Larissa's sport "mate" reads the schedule for Larrisa. But actually she wants to do it herself. So it's my goal to make a web application for her schedule. 
+It's not really a problem that Larissa can't see everything: it's a problem that the schedule isn't made to navigate through. This schedule is made in Excell. This makes it very hard to navigate through the content. Most the time, Larissa's sport "mate" reads the schedule for Larrisa. But actually she wants to do it herself. So it's my goal to make a web application for her schedule. 
 
 ## The solution
+I made an app in which her schedule is processed. Larissa can navigate through this app, by using her keyboard. She can tab through the content. Besides, I made the app in two colors: black and white. In this way, there's a big contrast. If she want to, she can read the content. 
+
+The app is desgined to show Larissa's schedule on micro- and marco niveau. This means that she can check the schedule of today, of another day or the whole year (based on month, location and stage). The home page greets Larissa and tells which day it is today. From that moment, you start on the micro niveau (check the planning of today!) and ends with the macro niveau (check the planning of the year!).
+
+I also changed the style of the scrollbar on the home page. I added a bicycle which "cycles" over the edge of your screen when Larissa navigates through the content. It isn't only fun to see this, but I think it also motivates Larissa because I added a "START" at the top side and a medaille on the bottom side. Besides, it's very functional: in this way she has a better understanding of the size of the page!
+
+But I let Larissa search in her schedule by adding a search bar. During the first test, she said to another student: "If I can't find it, I can also use command + F! I know this is cheating but it always works." This inspired me to add the same way of searching through content. I think this will be the fastest way for Larissa to accomplish her goal. The search bar can search based on the content of the heading level. 
 
 
 ## Exclusive Design principles
@@ -99,12 +106,11 @@ During the tests, I made some notes about the feedback of my fellow students:
 - It's nice when there is a planning of the week, based on the numbers of the week.
 - She likes it when webdevelopers make the app independent of technologies.
 
-
 ## Sources
-[Emojipedia](https://emojipedia.org/)
+
 
 ## Credits
-
+In the past weeks we all worked from home, because of the virus. This makes it harder to communicate and to concentrate on your work. That's why I would like to thank my fellow students, the help students and the teachers for helping me during this time.
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
