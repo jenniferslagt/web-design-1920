@@ -1,5 +1,5 @@
 ## App
-![Schermafbeelding 2020-05-07 om 11 13 14](https://user-images.githubusercontent.com/45489420/81276864-e1035a00-9053-11ea-8037-2250b402ee5a.png)
+![schedule_app_larissa](https://user-images.githubusercontent.com/45489420/81277234-6981fa80-9054-11ea-9358-ac00a12533b2.png)
 
 ## Description
 I made a app <i>for</i> and <i>with</i> Larissa, she is blind and para cycles at a high level. In this app she can check her sport schedule with her screenreader and her keyboard. 
