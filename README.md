@@ -77,6 +77,7 @@ You can add nonsense to make something more interesting and more fun. Think abou
 * On the home page there's big smiley waving at Larissa to greet her.
 * If Larissa "tabs" through the smiley, it saids: "Happy smiley which is greeting you with a wave." (Gelukkige smiley die je zwaaiend begroet).
 * I changed the style of the scrollbar and added a bicycle, which cycles over the edge of the screen! 
+  
 </details>
 
 ## User scenario
